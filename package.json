@@ -1,5 +1,5 @@
 {
-  "name": "sourceCount",
+  "name": "source-count",
   "version": "0.0.1",
   "description": "Count Source for node.js project. \n only .js support, will ignore node_modeules",
   "main": "index.js",
