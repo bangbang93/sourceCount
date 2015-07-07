@@ -17,7 +17,8 @@ var cli = meow({
   alias: {
     all: 'a',
     ignore: 'i',
-    exp: 'e'
+    exp: 'e',
+    maxDepth: 'm'
   }
 });
 
