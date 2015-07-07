@@ -51,7 +51,7 @@ Arguments
 ``` --all ``` ``` -a ```
 in default won't display directories that didn't has code at all,use this arg to show them up
 
-``` -- ignore ``` ``` -i ```
+``` --ignore ``` ``` -i ```
 ignore path, can be directory name or file name ,input relative path from cwd
 
 ``` --exp ``` ``` -e ```
