@@ -1,10 +1,9 @@
-/**
- * Created by bangbang93 on 14-11-25.
- */
+
+'use strict';
+
 var fs = require('fs');
 var path = require('path');
 var async = require('async');
-var util = require('util');
 var meow = require('meow');
 var debug = require('debug')('sc');
 var Table = require('cli-table');
@@ -58,8 +57,8 @@ var table = new Table({
 debug('%j', cli);
 
 
-var p = cli.input[0];
-p = path.resolve(__dirname, p);
+var p = cli.input[0] || '.';
+p = path.resolve(process.cwd(), p);
 
 
 var readFile = async.queue(function (task, cb) {
