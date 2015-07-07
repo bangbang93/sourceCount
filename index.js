@@ -11,14 +11,20 @@ var Table = require('cli-table');
 var cli = meow({
   help: [
     'usage',
-    'sc <path>'
+    'sc <path>',
+    '--all -a: output directory with 0 line code',
+    '--ignore -i: ignore path, default has [".git", "node_modules"]',
+    '--exp -e: custom RegExp to filter file, default is /\\.js$/i',
+    '--max-depth -m: display max depth',
+    '--help -h: show this'
   ]
 }, {
   alias: {
     all: 'a',
     ignore: 'i',
     exp: 'e',
-    maxDepth: 'm'
+    maxDepth: 'm',
+    help: 'h'
   }
 });
 
