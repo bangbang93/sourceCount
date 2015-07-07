@@ -1,7 +1,7 @@
 {
   "name": "source-count",
-  "version": "1.0.0",
-  "description": "Count source line in async way",
+  "version": "1.0.1",
+  "description": "Count source lines of code in async way",
   "main": "index.js",
   "bin": {
     "jscount" : "bin/jscount"
