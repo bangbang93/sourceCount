@@ -1,6 +1,6 @@
 {
   "name": "source-count",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Count source lines of code in async way",
   "main": "index.js",
   "bin": {
